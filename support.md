@@ -18,6 +18,6 @@ Need help with AntiStress? Write to **mukashi.dev@gmail.com** and we'll get back
 
 **How do I learn what to do in a world?** Open the world, tap its settings button, then How to play.
 
-**Does AntiStress collect my data?** No account, no ads, no analytics, no tracking. See the [Privacy Policy](./).
+**Does AntiStress collect my data?** No account, no ads, no tracking. The app sends usage statistics and crash reports that don't identify you, so we can see which worlds people enjoy and fix problems. See the [Privacy Policy](./).
 
 **Terms of Use:** AntiStress is covered by [Apple's standard licence agreement](https://www.apple.com/legal/internet-services/itunes/dev/stdeula/).

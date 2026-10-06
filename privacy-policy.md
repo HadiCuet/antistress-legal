@@ -1,8 +1,8 @@
 # AntiStress — Privacy Policy
 
-**Effective date:** October 4, 2026
+**Effective date:** October 6, 2026
 
-AntiStress is a collection of calm, touchable worlds for iPhone and iPad. It is built to be private: there is no account, no advertising, no analytics and no tracking. This policy explains the little data the app handles, why, and the choices you have.
+AntiStress is a collection of calm, touchable worlds for iPhone and iPad. It is built to be private: there is no account, no advertising and no tracking. To learn which worlds people enjoy and to fix problems, the app sends usage statistics and crash reports that don't identify you. This policy explains the little data the app handles, why, and the choices you have.
 
 ## 1. Who we are
 
@@ -12,12 +12,25 @@ AntiStress is developed and operated by **Abdullah Al Hadi** ("we", "us"). For t
 
 ### Stays only on your device
 
-The app keeps a few things on your device so it works the way you left it. They are never sent to us. If you use iCloud Backup, Apple includes them in your encrypted backup; that is between you and Apple.
+The app keeps a few things on your device so it works the way you left it. If you use iCloud Backup, Apple includes them in your encrypted backup; that is between you and Apple. This stored data is never sent to us. The usage statistics described below do note which options and lengths you pick, but never your check-ins or your reminder time.
 
 - **Settings:** the world you used last, Sound and Haptics, each world's options, the reminder time and the sleep timer length.
 - **Breathe check-ins:** if you rate how tense you feel before and after a Breathe session, those ratings.
 - **Pictures of the worlds:** small pictures of each world for the Worlds gallery, kept in the app's cache.
 - **App bookkeeping:** which guides you have seen, the days you opened the app, and whether you were already asked for a rating, so the request appears at most once per version.
+
+### Usage statistics (Firebase Analytics)
+
+**Firebase Analytics**, a Google service, tells us how the app is used, counted across everyone, so we can decide what to improve and which worlds to build next. It runs without the advertising identifier and with Google's advertising features turned off. It collects:
+
+- **A per-install identifier:** a random Firebase app-instance ID that belongs to this installation of AntiStress only and changes if you reinstall the app. The app never reads your device's advertising identifier (IDFA), and Analytics is set not to collect its identifier for vendors (IDFV).
+- **Basic device information:** device model, iOS version, app version, language, and your approximate location (country, region and city), which Google works out from your IP address.
+- **How the app is used:** which worlds and screens you open and for how long; where a world was opened from (the gallery, the widget, Siri or a notification); when a Breathe session starts and finishes, and its length; when you take or save a picture with "Save this moment"; when the sleep timer starts, and its length; your answer to the first-launch notification card and to the notification permission request; the options you pick, such as Sound, Haptics, the daily reminder, News, and each world's scene, style or ground; and when the app asks for a rating.
+- **We never send** your Breathe check-in ratings, the word you type to color the bubbles, your pictures, your reminder time, anything about Apple Health, or anything that identifies you. We never set a user ID.
+
+### Crash reports (Firebase Crashlytics)
+
+**Firebase Crashlytics**, a Google service, sends a report when the app crashes, or when part of it fails quietly, such as a world that can't draw or a sound that can't start. A report holds the technical details of the failure (a stack trace), the state of the device at that moment (such as model, iOS version and free memory), the world that was on screen, the last few usage events before it, and a per-install Crashlytics identifier. It holds none of your content.
 
 ### Notifications from us (Firebase Cloud Messaging)
 
@@ -43,30 +56,34 @@ Each one is optional:
 ## 4. How we use this data
 
 - **On-device data** powers the app's features: picking up where you left off and applying your settings. It is used for nothing else.
+- **Firebase Analytics** tells us, across everyone, which worlds and features get used, so we can decide what to improve and what to build next. We look at totals and trends, not at individuals.
+- **Firebase Crashlytics** tells us when and why the app fails, so we can fix it.
 - **Firebase Cloud Messaging** lets us tell people about new worlds and features, in their own language.
 
 We do not sell your personal information, and we do not share it for cross-context behavioral advertising. We do not share data with advertisers, and we do not build profiles across other apps.
 
 ## 5. Children
 
-AntiStress is suitable for everyone. It has no accounts and asks for no personal information. The only data that leaves the device is the notification topic membership described above, which identifies no one.
+AntiStress is suitable for everyone. It has no accounts and asks for no personal information. The only data that leaves the device is the usage statistics, crash reports and notification topic membership described above, none of which identifies anyone.
 
 ## 6. Third parties
 
-Apart from Apple, the only service the app communicates with is **Firebase Cloud Messaging**, operated by Google LLC. Google processes this data as our service provider, under the [Firebase Data Processing and Security Terms](https://firebase.google.com/terms/data-processing-terms). Google's own practices are covered by the [Google Privacy Policy](https://policies.google.com/privacy). Notifications reach your device through **Apple Push Notification service**, operated by Apple. Siri, Shortcuts, widgets and Apple Health are Apple features, covered by [Apple's Privacy Policy](https://www.apple.com/legal/privacy/). When you tap Rate or Share in the app's Settings, the app asks Apple's App Store for the address of its own page; the request carries no personal data.
+Apart from Apple, the only services the app communicates with are **Firebase Analytics**, **Firebase Crashlytics** and **Firebase Cloud Messaging**, operated by Google LLC. Google processes this data as our service provider, under the [Firebase Data Processing and Security Terms](https://firebase.google.com/terms/data-processing-terms). Google's own practices are covered by the [Google Privacy Policy](https://policies.google.com/privacy). Notifications reach your device through **Apple Push Notification service**, operated by Apple. Siri, Shortcuts, widgets and Apple Health are Apple features, covered by [Apple's Privacy Policy](https://www.apple.com/legal/privacy/). When you tap Rate or Share in the app's Settings, the app asks Apple's App Store for the address of its own page; the request carries no personal data.
 
 Google primarily processes this data on servers in the **United States**. For users in the EEA, UK or Switzerland, transfers rely on Google's Data Processing and Security Terms, which incorporate the European Commission's Standard Contractual Clauses and the UK International Data Transfer Addendum.
 
-No analytics, advertising or tracking SDK is included in the app.
+No advertising or tracking SDK is included in the app, and the app never reads the advertising identifier.
 
 ## 7. How long we keep it
 
 - **On your device:** until you delete the app, which removes everything it stored.
+- **Usage statistics:** Google keeps the individual events for up to 14 months, then deletes them.
+- **Crash reports:** Google keeps them for 90 days.
 - **Notification topic membership:** for as long as the app is installed with notifications allowed; Google removes inactive registrations over time.
 
 ## 8. Your rights and choices
 
-You can turn off notifications, Health saving and Sound at any time, in the app's Settings or in iOS Settings. Because we hold no personal data about you, there is nothing for us to export or delete; deleting the app removes everything on your device. Depending on where you live, you may have rights to access, correct or delete personal data and to object to processing; write to us and we will help.
+You can turn off notifications, Health saving and Sound at any time, in the app's Settings or in iOS Settings. Usage statistics and crash reports are tied only to random per-install identifiers, never to your name or an account, so we can't pick out one person's data to export or delete; deleting the app removes everything on your device and retires those identifiers for good. Depending on where you live, you may have rights to access, correct or delete personal data and to object to processing; write to us and we will help.
 
 ## 9. Security
 
