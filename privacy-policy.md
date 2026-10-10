@@ -1,6 +1,6 @@
 # AntiStress — Privacy Policy
 
-**Effective date:** October 6, 2026
+**Effective date:** October 10, 2026
 
 AntiStress is a collection of calm, touchable worlds for iPhone and iPad. It is built to be private: there is no account, no advertising and no tracking. To learn which worlds people enjoy and to fix problems, the app sends usage statistics and crash reports that don't identify you. This policy explains the little data the app handles, why, and the choices you have.
 
@@ -12,12 +12,24 @@ AntiStress is developed and operated by **Abdullah Al Hadi** ("we", "us"). For t
 
 ### Stays only on your device
 
-The app keeps a few things on your device so it works the way you left it. If you use iCloud Backup, Apple includes them in your encrypted backup; that is between you and Apple. This stored data is never sent to us. The usage statistics described below do note which options and lengths you pick, but never your check-ins or your reminder time.
+The app keeps a few things on your device so it works the way you left it. If you use iCloud Backup, Apple includes them in your encrypted backup; that is between you and Apple. This stored data is never sent to us. The usage statistics described below do note which options and lengths you pick, but never your check-ins, your photo or your reminder time.
 
 - **Settings:** the world you used last, Sound and Haptics, each world's options, the reminder time and the sleep timer length.
 - **Breathe check-ins:** if you rate how tense you feel before and after a Breathe session, those ratings.
+- **Your calm this week:** how long you spent in the worlds and how many Breathe sessions you finished, shown in Settings.
+- **Your photo:** if you choose one of your photos for a world, such as Bubbles, one smaller copy of it, so the world can show it next time. Picking another photo replaces it.
 - **Pictures of the worlds:** small pictures of each world for the Worlds gallery, kept in the app's cache.
+- **First launch:** whether you have seen the welcome pages, and the world suggested by your answers to "What brings you here?" until you open a world. The answers themselves are not kept.
 - **App bookkeeping:** which guides you have seen, the days you opened the app, and whether you were already asked for a rating, so the request appears at most once per version.
+- **AntiStress Pro:** which worlds have had their free visit, and whether this copy of the app was first installed before AntiStress Pro existed (those installs keep Pond, Bubbles and Window free). This is kept in your device's keychain, so deleting and reinstalling the app doesn't reset it. The app also remembers whether it found Pro the last time it checked, so your worlds open straight away.
+
+Roll and Leaves read your device's tilt to move the ball and the leaves. The motion is used as it happens and is never stored or sent.
+
+### Purchases (Apple)
+
+AntiStress Pro is sold through Apple's App Store. Apple takes the payment and handles your Apple Account; we never see your payment details, your name or your Apple Account. The app asks Apple whether this Apple Account has Pro, and once, which version of the app was first downloaded, so people who installed it before Pro keep their free worlds. If you share Lifetime through Family Sharing, Apple decides who is in your family; the app only learns that Pro is available. With Ask to Buy, the purchase waits for the family organizer's approval in Apple's own flow.
+
+When you buy Pro, the usage statistics below note which plan (monthly, yearly or lifetime), whether it began with the free trial, and where the offer was shown; never the price, and never who you are.
 
 ### Usage statistics (Firebase Analytics)
 
@@ -25,8 +37,11 @@ The app keeps a few things on your device so it works the way you left it. If yo
 
 - **A per-install identifier:** a random Firebase app-instance ID that belongs to this installation of AntiStress only and changes if you reinstall the app. The app never reads your device's advertising identifier (IDFA), and Analytics is set not to collect its identifier for vendors (IDFV).
 - **Basic device information:** device model, iOS version, app version, language, and your approximate location (country, region and city), which Google works out from your IP address.
-- **How the app is used:** which worlds and screens you open and for how long; where a world was opened from (the gallery, the widget, Siri or a notification); when a Breathe session starts and finishes, and its length; when you take or save a picture with "Save this moment"; when the sleep timer starts, and its length; your answer to the first-launch notification card and to the notification permission request; the options you pick, such as Sound, Haptics, the daily reminder, News, and each world's scene, style or ground; and when the app asks for a rating.
-- **We never send** your Breathe check-in ratings, the word you type to color the bubbles, your pictures, your reminder time, anything about Apple Health, or anything that identifies you. We never set a user ID.
+- **How the app is used:** which worlds and screens you open and for how long; where a world was opened from (the gallery, the widget, Siri or a notification); when a Breathe session starts and finishes, and its length; when you take or save a picture with "Save this moment"; when the sleep timer starts, and its length.
+- **Your first launch:** which welcome pages you see, whether you finish or skip them, and the answers you tick on "What brings you here?" (such as better sleep or anxious moments); your answer to the reminder offered on first launch and to the notification permission request.
+- **Your choices:** the options you pick, such as Sound, Haptics, the daily reminder, News, and each world's scene, style, ground or photo setting (never the photo itself).
+- **AntiStress Pro:** when a world's free visit starts; when the AntiStress Pro offer opens and closes, and where it was opened from; the plan bought (monthly, yearly or lifetime) and whether it began with the free trial; whether Restore found a purchase; and when the app asks for a rating.
+- **We never send** your Breathe check-in ratings, your calm this week, the word you type to color the bubbles, your photos or pictures, your reminder time, anything about Apple Health, or anything that identifies you. We never set a user ID.
 
 ### Crash reports (Firebase Crashlytics)
 
@@ -44,14 +59,18 @@ The app keeps a few things on your device so it works the way you left it. If yo
 
 The daily reminder you can turn on is different: it is scheduled on your device and never involves a server.
 
+### Emails to us
+
+If you write to us, from the app or otherwise, we receive your email address and your message. When you write from the app's Settings, the draft also includes a short device report you can read and edit before sending: the app version, iOS version, device model, language and region setting, and the world you were in. We use it only to answer you.
+
 ## 3. Permissions the app may ask for
 
 Each one is optional:
 
 - **Notifications:** for the daily reminder and the occasional notification from us. You can turn them off at any time in iOS Settings → Notifications → AntiStress.
-- **Apple Health (write only):** if you allow it, finished Breathe sessions are saved to Health as Mindful Minutes. AntiStress never reads anything from Health. Health data is handled by Apple under Apple's terms.
+- **Apple Health (write only):** if you allow it, finished Breathe sessions are saved to Health as Mindful Minutes. The app asks after your first finished Breathe session. AntiStress never reads anything from Health. Health data is handled by Apple under Apple's terms.
 - **Photos (add only):** "Save this moment" adds the picture you took to your photo library. The app can't see your existing photos.
-- **A photo you pick:** the Bubbles world can take colours from a photo you choose. The photo is read once on your device and is not stored or sent anywhere.
+- **A photo you choose:** for "Your photo", iOS's photo picker hands the app only the photo you select; the app has no access to the rest of your library. It keeps the smaller copy described in Section 2, and the photo is never sent anywhere.
 
 ## 4. How we use this data
 
@@ -59,16 +78,17 @@ Each one is optional:
 - **Firebase Analytics** tells us, across everyone, which worlds and features get used, so we can decide what to improve and what to build next. We look at totals and trends, not at individuals.
 - **Firebase Crashlytics** tells us when and why the app fails, so we can fix it.
 - **Firebase Cloud Messaging** lets us tell people about new worlds and features, in their own language.
+- **Emails** are used only to reply to you.
 
 We do not sell your personal information, and we do not share it for cross-context behavioral advertising. We do not share data with advertisers, and we do not build profiles across other apps.
 
 ## 5. Children
 
-AntiStress is suitable for everyone. It has no accounts and asks for no personal information. The only data that leaves the device is the usage statistics, crash reports and notification topic membership described above, none of which identifies anyone.
+AntiStress is suitable for everyone, including children. It has no accounts, no ads and no chat, and asks for no personal information. The only data that leaves the device is the usage statistics, crash reports and notification topic membership described above, none of which identifies anyone. Purchases go through Apple, so a child's purchase can wait for a parent's approval with Ask to Buy.
 
 ## 6. Third parties
 
-Apart from Apple, the only services the app communicates with are **Firebase Analytics**, **Firebase Crashlytics** and **Firebase Cloud Messaging**, operated by Google LLC. Google processes this data as our service provider, under the [Firebase Data Processing and Security Terms](https://firebase.google.com/terms/data-processing-terms). Google's own practices are covered by the [Google Privacy Policy](https://policies.google.com/privacy). Notifications reach your device through **Apple Push Notification service**, operated by Apple. Siri, Shortcuts, widgets and Apple Health are Apple features, covered by [Apple's Privacy Policy](https://www.apple.com/legal/privacy/). When you tap Rate or Share in the app's Settings, the app asks Apple's App Store for the address of its own page; the request carries no personal data.
+Apart from Apple, the only services the app communicates with are **Firebase Analytics**, **Firebase Crashlytics** and **Firebase Cloud Messaging**, operated by Google LLC. Google processes this data as our service provider, under the [Firebase Data Processing and Security Terms](https://firebase.google.com/terms/data-processing-terms). Google's own practices are covered by the [Google Privacy Policy](https://policies.google.com/privacy). Notifications reach your device through **Apple Push Notification service**, operated by Apple. Purchases, Family Sharing, Siri, Shortcuts, widgets and Apple Health are Apple features, covered by [Apple's Privacy Policy](https://www.apple.com/legal/privacy/). When you tap Rate or Share in the app's Settings, the app asks Apple's App Store for the address of its own page, and the AntiStress Pro offer asks it for the app's public rating at most once a day; neither request carries personal data.
 
 Google primarily processes this data on servers in the **United States**. For users in the EEA, UK or Switzerland, transfers rely on Google's Data Processing and Security Terms, which incorporate the European Commission's Standard Contractual Clauses and the UK International Data Transfer Addendum.
 
@@ -76,18 +96,19 @@ No advertising or tracking SDK is included in the app, and the app never reads t
 
 ## 7. How long we keep it
 
-- **On your device:** until you delete the app, which removes everything it stored.
+- **On your device:** until you delete the app, which removes everything it stored, including your photo, except the AntiStress Pro record in the keychain (used free visits and whether the install dates from before Pro). iOS keeps that record after the app is deleted; erasing the device removes it.
 - **Usage statistics:** Google keeps the individual events for up to 14 months, then deletes them.
 - **Crash reports:** Google keeps them for 90 days.
 - **Notification topic membership:** for as long as the app is installed with notifications allowed; Google removes inactive registrations over time.
+- **Emails:** as long as needed to help you; ask and we will delete them.
 
 ## 8. Your rights and choices
 
-You can turn off notifications, Health saving and Sound at any time, in the app's Settings or in iOS Settings. Usage statistics and crash reports are tied only to random per-install identifiers, never to your name or an account, so we can't pick out one person's data to export or delete; deleting the app removes everything on your device and retires those identifiers for good. Depending on where you live, you may have rights to access, correct or delete personal data and to object to processing; write to us and we will help.
+You can turn off notifications, Health saving and Sound at any time, in the app's Settings or in iOS Settings, and set Your photo to Off. Usage statistics and crash reports are tied only to random per-install identifiers, never to your name or an account, so we can't pick out one person's data to export or delete; deleting the app removes everything on your device and retires those identifiers for good. Depending on where you live, you may have rights to access, correct or delete personal data and to object to processing; write to us and we will help.
 
 ## 9. Security
 
-The app keeps its data in the iOS app sandbox. Communication with Firebase is encrypted in transit.
+The app keeps its data in the iOS app sandbox, and the AntiStress Pro record in the iOS keychain. Communication with Firebase and the App Store is encrypted in transit.
 
 ## 10. Changes to this policy
 
