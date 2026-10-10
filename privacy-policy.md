@@ -20,7 +20,7 @@ The app keeps a few things on your device so it works the way you left it. If yo
 - **Your photo:** if you choose one of your photos for a world, such as Bubbles, one smaller copy of it, so the world can show it next time. Picking another photo replaces it.
 - **Pictures of the worlds:** small pictures of each world for the Worlds gallery, kept in the app's cache.
 - **First launch:** whether you have seen the welcome pages, and the world suggested by your answers to "What brings you here?" until you open a world. The answers themselves are not kept.
-- **App bookkeeping:** which guides you have seen, the days you opened the app, and whether you were already asked for a rating, so the request appears at most once per version.
+- **App bookkeeping:** which guides you have seen.
 - **AntiStress Pro:** which worlds have had their free visit, and whether this copy of the app was first installed before AntiStress Pro existed (those installs keep Pond, Bubbles and Window free). This is kept in your device's keychain, so deleting and reinstalling the app doesn't reset it. The app also remembers whether it found Pro the last time it checked, so your worlds open straight away.
 
 Roll and Leaves read your device's tilt to move the ball and the leaves. The motion is used as it happens and is never stored or sent.
