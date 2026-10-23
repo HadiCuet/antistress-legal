@@ -18,7 +18,7 @@ Need help with AntiStress? Write to **mukashi.dev@gmail.com** and we'll get back
 
 **How do I learn what to do in a world?** Open the world, tap its settings button, then How to play.
 
-**What is AntiStress Pro?** Bubbles is free for everyone, and every other world can be played once, for as long as you like. AntiStress Pro opens every world, and each new one as it arrives: by the month, by the year (starting with a 3-day free trial) or once for life. If you installed AntiStress before Pro arrived, Pond, Bubbles and Window stay yours for good.
+**What is AntiStress Pro?** Bubbles is free for everyone, and so are Sleep's Rainy cabin and its Fireside and Thunderstorm mixes. Every other world can be played once, for as long as you like, and every other Sleep place and mix plays a 30-second taste and has one free night. AntiStress Pro opens them all, and each new world as it arrives: by the month, by the year (starting with a 3-day free trial) or once for life. If you installed AntiStress before Pro arrived, Pond, Bubbles and Window stay yours for good.
 
 **Can my family use Pro?** Yes, Lifetime can be shared with up to five family members through Apple's Family Sharing. Subscriptions are for the person who buys them.
 
